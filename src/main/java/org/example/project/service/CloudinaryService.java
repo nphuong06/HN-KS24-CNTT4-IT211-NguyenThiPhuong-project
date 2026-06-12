@@ -39,7 +39,7 @@ public class CloudinaryService {
         } catch (IOException ex) {
             throw new ApiException("Lỗi kết nối dịch vụ lưu trữ đám mây", HttpStatus.SERVICE_UNAVAILABLE);
         } catch (Exception ex) {
-            throw new ApiException("Lỗi kết nối dịch vụ lưu trữ đám mây", HttpStatus.SERVICE_UNAVAILABLE);
+            throw new ApiException("Loi ket noi dich vu luu tru dam may", HttpStatus.SERVICE_UNAVAILABLE);
         }
     }
 
